@@ -1,5 +1,5 @@
 import "./styles/index.css";
-import { Users } from "./pages/Users";
+import { Users } from "./pages";
 
 const App = () => {
   return (

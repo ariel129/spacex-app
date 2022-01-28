@@ -1,5 +1,3 @@
-import React from "react";
+import { Users } from "./Users";
 
-export const index = () => {
-  return <div></div>;
-};
+export { Users };

@@ -14,7 +14,7 @@ const cache = new InMemoryCache({});
 
 const client = new ApolloClient({
   link: new HttpLink({
-    uri: "https://api.spacex.land/graphql/",
+    uri: `${process.env.REACT_APP_API}/graphql/`,
   }),
   cache,
 });
